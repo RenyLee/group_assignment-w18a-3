@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.QuestionMarkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.InvestingSet1QuizActivity"
+            android:exported="false"
+            android:label="@string/title_activity_investing_set1_quiz"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activities.InvestingSet2QuizActivity"
+            android:exported="false"
+            android:label="@string/title_activity_investing_set2_quiz"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activities.SavingsSet2QuizActivity"
+            android:exported="false"
+            android:label="@string/title_activity_savings_set2_quiz"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activities.SavingsSet1QuizActivity"
+            android:exported="false"
+            android:label="@string/title_activity_savings_set1_quiz"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activities.MoneySet2QuizActivity"
+            android:exported="false"
+            android:label="@string/title_activity_money_set2_quiz"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activities.awardsAvailable"
+            android:exported="false"
+            android:label="@string/title_activity_awards_available"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <!--
+        <activity
+            android:name=".PointsActivity"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".Activities.PointsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MoneySet1QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SavingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ForgotPasswordActivity$InvestingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Learning.SavingLearning"
+            android:exported="false" />
+        <activity
+            android:name=".Learning.InvestingLearning"
+            android:exported="false" />
+        <activity
+            android:name=".Learning.MoneyLearning"
+            android:exported="false" />
+        <activity
+            android:name=".Temp"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "201297216366",
+    "project_id": "experiencepoints-5bb84",
+    "storage_bucket": "experiencepoints-5bb84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201297216366:android:e0e68f5fb5ffe2ec61b77f",
+        "android_client_info": {
+          "package_name": "au.edu.unsw.groupproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201297216366-7nsl72ghud6fot8h28fab3qk8quelafn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEHntb-WWw5Wcv76ZLbMNd3bYMJErOBP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201297216366-7nsl72ghud6fot8h28fab3qk8quelafn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
